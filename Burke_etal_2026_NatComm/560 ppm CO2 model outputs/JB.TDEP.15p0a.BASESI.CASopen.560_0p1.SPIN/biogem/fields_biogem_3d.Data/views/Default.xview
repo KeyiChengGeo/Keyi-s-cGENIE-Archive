@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<View collection="fields_biogem_3d" xview="0.23">
+<NetcdfEmulation primaryVarID="4">
+<Dimension index="0" varID="0"/>
+<Dimension index="2" varID="2"/>
+<Dimension index="3" varID="3"/>
+<Dimension index="4" varID="4" isLeadDim="1"/>
+<Dimension index="6" varID="7"/>
+<Dimension index="7" varID="8"/>
+<Dimension index="8" varID="9"/>
+<Dimension index="9" varID="10"/>
+<Dimension index="10" varID="11"/>
+<MetaVariable colID="2" index="3" trgVID="3"/>
+<MetaVariable colID="3" index="4" trgVID="4"/>
+<MetaVariable colID="1" index="5" trgVID="5"/>
+<MetaVariables>
+<digits_counts>0,0,0,3,3,0,0,0,0,0,0</digits_counts>
+</MetaVariables>
+<Variables>
+<digits_counts>4,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,0,2,2,2,4,4,4,4,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,4,4,2,4,4</digits_counts>
+</Variables>
+</NetcdfEmulation>
+<GeographicMap>
+<MapDomain lon_max="180.00000" lat_min="-81.46380" lon_min="-180.00000" lat_max="81.46380"/>
+<AutoMapLayerSettings coastline_fill="F"/>
+</GeographicMap>
+<MapWindow>
+<Symbol size="-0.1" type="0" color="1" small_size="0.21093"/>
+<Window>
+<Geometry y_length_bb="6.5" y_top="81.4638" x_length_bb="13.5" y_projection="100" x_offset_bb="8" y_bottom="-81.4638" x_left="-180" y_offset_bb="1.25" x_right="180" x_projection="100"/>
+</Window>
+</MapWindow>
+<Section coordinate="1" width="0.248">
+<xNodes>-179.022,-78.2609,-11.087,38.1522</xNodes>
+<yNodes>1.30342,1.30342,1.30342,1.62928</yNodes>
+</Section>
+<DataWindow>
+<AxisVariables>
+<!--Section Longitude-->
+<xAxis var_id="200000" is_reversed="F" var_list="1"/>
+<!--zt [m]-->
+<yAxis var_id="0" is_reversed="T" var_list="1"/>
+<!--phys_v [m/s]-->
+<zAxis var_id="108" is_reversed="F" var_list="1"/>
+</AxisVariables>
+<Modes window_mode="2" plot_mode="2" window_type="0"/>
+<Gridding draw_shaded="T" x_scale_length="5.69601" y_scale_length="5.46978" auto_scale_lengths="T"/>
+<BadEstimateHiding max_distance="3" hide="T"/>
+<Window>
+<Geometry y_length_bb="9.6" y_top="0" x_length_bb="23" x_offset_bb="3.5" y_bottom="5000" x_left="-179.022" y_offset_bb="9.5" x_right="38.1522"/>
+<ColorScale z_range_end="0.015" z_range_start="-0.0075"/>
+<GraphicsObjects>
+<GObject post_data="T" type="1" is_automatic="T" dragging="F" own_coordinates="F" clipping="F">
+<Annotation y_coordinate="19.3" angle="0" background_color="-1" text_color="0" frame_color="-1" x_coordinate="26.5" frame_type="0" text_alignment="4" frame_width="-1" text="phys_v [m/s]" font_size="14.5778"/>
+</GObject>
+<GObject post_data="T" type="1" is_automatic="T" dragging="F" own_coordinates="F" clipping="F">
+<Annotation y_coordinate="14.3" angle="90" background_color="-1" text_color="0" frame_color="-1" x_coordinate="2.04321" frame_type="0" text_alignment="2" frame_width="-1" text="zt [m]" font_size="13.4564"/>
+</GObject>
+</GraphicsObjects>
+</Window>
+</DataWindow>
+<BasicVariables>
+<!--zt [m]-->
+<Variable var_id="0" min_value="0.00000" max_value="5000.00000"/>
+<!--carb_H-->
+<Variable var_id="1" min_value="1e-08" max_value="7e-08"/>
+<!--ocn_PO4 [mol kg-1]-->
+<Variable var_id="103" min_value="0.000" max_value="3.5e-06"/>
+<!--phys_u [m/s]-->
+<Variable var_id="107" min_value="-0.040" max_value="0.030"/>
+<!--phys_v [m/s]-->
+<Variable var_id="108" min_value="-0.007" max_value="0.015"/>
+<!--phys_w [m/s]-->
+<Variable var_id="109" min_value="-1e-06" max_value="1.75e-06"/>
+</BasicVariables>
+<IsoSurfaceVariables>
+<!--carb_H @ zt [m]=first-->
+<IsoVariable surface_var_id="0" surface_value="first" var_id="1"/>
+<!--carb_RF0 @ zt [m]=first-->
+<IsoVariable surface_var_id="0" surface_value="first" var_id="2"/>
+<!--carb_conc_CO2 @ zt [m]=first-->
+<IsoVariable surface_var_id="0" surface_value="first" var_id="3"/>
+<!--carb_conc_CO3 @ zt [m]=first-->
+<IsoVariable surface_var_id="0" surface_value="first" var_id="4"/>
+</IsoSurfaceVariables>
+<CurrentSelection stationID="666" sampleID="11"/>
+</View>
