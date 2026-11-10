@@ -1,0 +1,1 @@
+Simulations with Temperature dependent export productivity (TDEP) under 1X preindustrial CO2 (280 ppm). The continental configurations are adapted from Crichton et al., 2021 (Clim. Past) ranging from modern to 15 Ma, with the Central American Seaway (CAS) open and closed to simulate impacts of ocean circulation to ocean biogeochemical cycles.
